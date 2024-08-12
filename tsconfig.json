@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "strictNullChecks": true
+  },
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "src/app/register/page.jsx", "tailwind.config.js", "src/app/admin/dashboard/page.jsx", "src/components/login/LoginForm.jsx", "src/app/api/auth/[...nextauth]/route.js", "src/models/user.ts", "src/middleware.ts", "src/components/ui/mode-toggle.jsx", "src/app/admin/dashboard/departamentos/Departamentos.jsx", "src/api/departamento/route.ts", "src/components/ui/aurorabackground.jsx", "src/components/ui/text-generate-effect.jsx", "src/components/ui/sortable.tsx", "src/app/admin/dashboard/expensas/sheet-expensas.jsx", "src/components/date-time-picker-form.jsx", "src/components/custom/image-upload.tsx", "src/components/ui/assistant-ui/assistant-modal.jsx", "src/components/ui/assistant-ui/MyRuntimeProvider.jsx", "src/components/ui/assistant-ui/chatClient.jsx"],
+  "exclude": [
+    "node_modules"
+  ]
+}
